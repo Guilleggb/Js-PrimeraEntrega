@@ -6,6 +6,7 @@ function calcularAreaFigura() {
     let base = 0;
     let altura = 0;
 
+    alert("¡Bienvenido!");
     while (opcion !== 4) {
         alert("Calculadora de áreas de figuras geométricas\n" +
             "1) Círculo\n" +
