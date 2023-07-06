@@ -19,18 +19,18 @@ function calcularAreaFigura() {
             case 1:
                 radio = parseFloat(prompt("Ingresa el radio del círculo:"));
                 area = areaCirculo(radio);
-                alert("El área del círculo es: " + area.toFixed(3));
+                alert("El área del círculo es: " + area);
                 break;
             case 2:
                 lado = parseFloat(prompt("Ingresa el lado del cuadrado:"));
                 area = areaCuadrado(lado);
-                alert("El área del cuadrado es: " + area.toFixed(3));
+                alert("El área del cuadrado es: " + area);
                 break;
             case 3:
                 base = parseFloat(prompt("Ingresa la base del triángulo:"));
                 altura = parseFloat(prompt("Ingresa la altura del triángulo:"));
                 area = areaTriangulo(base, altura);
-                alert("El área del triángulo es: " + area.toFixed(3));
+                alert("El área del triángulo es: " + area);
                 break;
             case 4:
                 alert("Gracias por usar la calculadora de áreas. ¡Hasta luego!");
